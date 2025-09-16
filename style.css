@@ -1,0 +1,91 @@
+/* ===== Reset básico ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* ===== Layout global ===== */
+  body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* ===== Cabeçalho ===== */
+  header {
+    background: #004aad;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  header p {
+    margin-top: .5rem;
+    font-size: 1.1rem;
+  }
+  
+  /* ===== Conteúdo ===== */
+  main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  main h2 {
+    margin-bottom: 0.5rem;
+    color: #004aad;
+  }
+  
+  /* ===== Mapa DISC ===== */
+  .mapa {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .mapa img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* ===== Botão ===== */
+  .btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    margin-top: 1rem;
+    background: #004aad;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background: #00327a;
+  }
+  
+  /* ===== Rodapé ===== */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    background: #222;
+    color: #fff;
+    font-size: 0.9rem;
+  }
+  
+  footer a {
+    color: #4eaaff;
+    text-decoration: none;
+  }
+  
